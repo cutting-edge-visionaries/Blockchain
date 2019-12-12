@@ -8,7 +8,7 @@ class Block
     {
         this.data = data;
         this.timeStamp = timeStamp;
-        this.hash = sha256(this.data);
+        this.hash = sha256(this.data+this.timeStamp+this.previoushash);
         this.previoushash = null;
     }
 }
