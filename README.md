@@ -12,4 +12,4 @@ Assignment Submission
 
 
 
-*** Don't touch index.html file in the repository, otherwise your submission will be discarded.
+*** Don't change or update index.html file or any other user's submissions in the repository, otherwise your submission will be discarded.
