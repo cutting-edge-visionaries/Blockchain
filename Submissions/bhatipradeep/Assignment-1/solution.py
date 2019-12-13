@@ -9,7 +9,8 @@ class block():
 		self.hash = self.calculateHash()
 
 	def calculateHash(self):
-	    return sha256(self.data.encode()).hexdigest()
+	    msg=self.timestamp + self.data + self.previousHash
+	    return sha256(msg.encode()).hexdigest()
 
 
 class blockchain():
