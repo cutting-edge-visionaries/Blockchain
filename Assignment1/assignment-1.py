@@ -9,8 +9,8 @@ class block():
 		self.hash = self.calculateHash()
 
 	def calculateHash(self):
-		#todo
-		#return hash--------------------
+		hashedData=hashlib.sha256(self.data)
+		return hashedData
 
 class blockchain():
 
