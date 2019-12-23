@@ -71,16 +71,4 @@ Make a branch and make a pull request.
 
 ### DIFFICULT
 
-* #### Steps to reproduce
-
-    * ##### Cloning the Repo and moving to new branch
-        1. Clone the Repo
-        ```git clone <repo URL>```
-
-        2. Make another branch of your Roll no, and checkout to that branch
-        ```git branch <RollNo> && git checkout <RollNo>```
-
-            e.g. ```git branch BC29 && git checkout BC29```
-
-    * ##### Setting up Environment (only for DIFFICULT solvers)
-        1. 
+### [CLICK HERE](https://github.com/cutting-edge-visionaries/Blockchain/tree/master/Assignment3_difficult)
