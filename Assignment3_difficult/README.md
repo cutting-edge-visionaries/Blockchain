@@ -41,7 +41,7 @@
     3. Now run the following command to install the dependencies which are listed it the ```package.json``` file
         ```npm install``` or ```sudo npm install```
     4.  Add ```.gitignore``` in the ```./PROJECT_DIR```, this will prevent the large size node_modules installed through the above commands, from unecessarily pushing to the repository.
-    5. Ignore, since the file already exists.
+    5. Ignore, if the file already exists. Just add ```node_modules/``` in the file.
     6. copy paste the contents of the file ```truffle-config.js```  in a file of same name in PROJECT_DIR.
         *Put the port name ```8545 for GANACHE-CLI``` and ```7545 for GANACHE-GUI```*
     7. create a file ```PROJECT_DIR/migrations/2_deploy_contracts.js``` and paste the contents of file ```PROJECT_DIR/migrations/1_initial_migration.js```.
@@ -55,7 +55,7 @@
         
 * #### Submitting your project.
     1. Like you submitted previous assignments.
-    2. Go to the [MAIN COURSE REPO](https://github.com/cutting-edge-visionaries/Blockchain) and add your ```<name>``` and ```<Repo URL>``` in the ```Assignment-3-difficult/submissions.md``` file in the following format.
+    2. Go to the [MAIN COURSE REPO](https://github.com/cutting-edge-visionaries/Blockchain) and add your ```<name>``` and ```<Repo URL>``` in the ```Assignment3_difficult/submissions.md``` file in the following format.
          
         [Name](Repo URL)
 
