@@ -67,7 +67,7 @@ Make a branch and make a pull request.
     Make a pull request to the Repository, after COPY-PASTING your solution to the ```balanceLedger.sol``` file under ```Submissions/<your_github_username>/Assignment3``` directory.
 
 ------------
-<On progress>
+
 
 ### DIFFICULT
 
