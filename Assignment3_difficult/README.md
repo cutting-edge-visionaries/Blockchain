@@ -25,10 +25,15 @@
 * #### Working further on the project
     1. Find the several files listed below in the Assignment Difficult directory
         > .gitignore    (FOLDER)
+        
         > *package.json*
+        
         > *truffle-config.js*
+        
         > *bs-config.js*
+        
         > *index.html*
+        
         > *app.js*
             
     2. copy paste the contents of the file ```package.json```  in a file of same name in PROJECT_DIR.
