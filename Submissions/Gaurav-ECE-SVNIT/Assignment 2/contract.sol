@@ -1,13 +1,13 @@
 pragma solidity ^0.4.0;
 
-contract SimpleStorage {
-    uint storedData;
+contract dataTransaction {
+    uint dataReceived;
 
-    function set(uint x) public {
-        storedData = x;
+    function set(uint feed) public {
+        dataReceived = feed;
     }
 
     function get() public view returns (uint) {
-        return storedData;
+        return dataReceived;
     }
 }
