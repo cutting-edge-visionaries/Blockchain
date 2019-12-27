@@ -1,6 +1,7 @@
-from hashlib import sha256
 import time
 import hashlib
+
+
 class block():
 	def __init__(self, timestamp, data, previousHash = ''):
 
@@ -12,7 +13,7 @@ class block():
 	def calculateHash(self):
 
 		HASHobj = hashlib.sha256()
-		HASHobj.update(self.data)
+		HASHobj.update(((self.data)+(self.timestamp)+(self.previousHash)).encode())
 		return HASHobj.digest()
 
 class blockchain():
