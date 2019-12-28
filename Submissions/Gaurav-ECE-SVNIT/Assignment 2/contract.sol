@@ -1,4 +1,5 @@
-pragma solidity ^0.4.0;
+pragma solidity ^0.5.12;
+// to create a simple contract of data transaction
 
 contract dataTransaction {
     uint dataReceived;
